@@ -5,25 +5,45 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Paralax Effect On GSAP</title>
+	<title>om</title>
 	<link rel="icon" href="img/icon.jpg" type="icon/x-icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style/normalize.css">
 	<link rel="stylesheet" href="style/style.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color: #0f1322;">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			 
+			  
+			</ul>
+			
+		  </div>
+		</div>
+	  </nav>
 
 	<!-- div .wrapp -->
 	<div id="luxy" class="wrapp">
 
 		<!-- div .header -->
 		<header class="header">
-			<h1 class="title" data-splitting><span class="title_paralax">ASMITA 2024</span><span class="stroke">INTER IIIT Sports Meet</span></h1>
+			<h1 class="title" data-splitting><p class="title_paralax" style="white-space: nowrap;">ASMITA 2024</p><br><p class="stroke" style="white-space: nowrap;">INTER </p><p class="stroke" style="white-space: nowrap;"> IIIT </p><p class="stroke" style="white-space: nowrap;">Sports </p><p class="stroke" style="white-space: nowrap;">Meet</p></h1>
 			<div class="header__img">
 				<img src="img/pic1.png" alt="1">
 			</div>
@@ -71,13 +91,13 @@
 		<main class="main">
 
 			<!-- div .about -->
-			<section class="about">
-				<div class="about__wrapp">
-					<div class="about__img">
+			<section class="about" style="margin-bottom: 10px;">
+				<div class="about__wrapp row">
+					<div class="about__img col-lg-5 col-md-12 col-sm-12">
 						<img src="img/2.jpg" alt="2">
 					</div>
-					<div class="about__txt">
-						<h2 class="section-title">abo<span class="stroke">ut</span>
+					<div class="about__txt col-lg-7 col-md-12 col-sm-12">
+						<h2 class="section-title"><span class="stroke">about</span>
 							<span class="section-title__square"></span>
 						</h2>
 						<p class="about__p">Asmita is IIIT Allahabad’s annual sports festival. After multiple successful editions in the past, it has become a flagship sports festival in North India. The word Asmita signifies glory and the feeling of oneness, and the festival rightly lives up to its name by bringing together the best players and teams of multiple renowned institutes on the sports field.	</p>
@@ -85,302 +105,41 @@
 				</div>
 			</section>
 
-
-			<div class="section s4">
-				<div class="boxs">
-					<div class="right">
-						<div class="heading" style="text-align: left; color: #ffffff">
-							How to reach IIITA
-						</div>
-						<div class="description" style="color: #ffffff">
-							The IIITA campus is located at Devghat Jhalwa
-							(Peepalgaon Road), which is on the outskirts of
-							Allahabad. It is 10 km from the town center and 7 km
-							from the main railway station. The Allahabad ciy is
-							well connected by air, rail and road to near by
-							metros. Railway services to this city from all the
-							mega cities of the coutry are excellent and quite
-							confortable.
-						</div>
-					</div>
-					<!-- <div class="laptop">
-					<div style="max-width:100%;overflow:hidden;color:red;width:600px;height:500px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Indian+Institute+of+Information+Technology,+Allahabad,+Indian+Institute+of+Information+Technology,+Jhalwa,+Prayagraj,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="our-googlemap-code" href="https://www.bootstrapskins.com/themes" id="authorize-map-data">premium bootstrap themes</a><style>#embed-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
-				</div>
-				<div class="phone">
-					<div style="max-width:100%;overflow:hidden;color:red;width:300px;height:400px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Indian+Institute+of+Information+Technology,+Allahabad,+Indian+Institute+of+Information+Technology,+Jhalwa,+Prayagraj,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="our-googlemap-code" href="https://www.bootstrapskins.com/themes" id="authorize-map-data">premium bootstrap themes</a><style>#embed-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
-				</div> -->
-					<div id="map"></div>
-				</div>
-			</div>
-
-			<div class="section s7 ">
-				<div class="above">
-					<img id="sponsorr" src="./assets/images/sponsor.png" />
-
-					<!-- <div class="sponsor_box">
-							<div
-								class="heading"
-								style="text-align: left; color: #ffffff"
-							>
-								Sponsor Us
-							</div>
-							<div class="description" style="color: #ffffff">
-								Asmita is a 100 percent non profit student run
-								organisation with more than 120+ colleges
-								participating every year and organising more than
-								100 year round events. We organise 20+ events of
-								corporate and social responsibility.
-							</div>
-							<div class="buttonss">
-								<a href="mailto:asmita.iiita.ac.in"
-									><button style="border-radius: 8px">
-										Mail Us
-									</button></a
-								>
-								<a href="./brochure.pdf" download
-									><button style="border-radius: 8px">
-										Brochure
-									</button></a
-								>
-							</div>
-						</div> -->
-				</div>
-
-				<div class="below" style="opacity: 1; padding: 0 2rem; padding-top: 20vh;">
-					<div class="sponsor_box">
-						<div class="heading" style="text-align: left; color: #ffffff">
-							Sponsor Us
-						</div>
-						<div class="description" style="color: #ffffff">
-							Asmita is a 100 percent non profit student run
-							organisation with more than 120+ colleges
-							participating every year and organising more than
-							100 year round events. We organise 20+ events of
-							corporate and social responsibility.
-						</div>
-						<div class="buttonss">
-							<a href="mailto:asmita@iiita.ac.in"><button style="border-radius: 8px">
-									Mail Us
-								</button></a>
-							<a href="./brochure.pdf" download><button style="border-radius: 8px">
-									Brochure
-								</button></a>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="left" style="max-width: 50vw; padding: 4rem;">
-				<div class="heading2">
-					Sponsor Us
-				</div>
-				<div class="description">
-		  Asmita is a 100 percent non profit student run organisation with more than 120+ colleges participating every year and
-		  organising more than 100 year round events. We organise 20+ events of corporate and social responsibility.
-				</div>
-		  <div class="buttonss">
-			<button class="downloaded">Download</button>
-			<button class="brochuree">Brochure</button>
-		  </div>
-		   -->
-			</div>
-
-
-			
-				<footer class="section footer" id="footer">
-					<!-- <div class="containerrr"> -->
-					<div style="padding-top:10vh; display: flex;">
-						<div style="display: flex; width: 40%; padding-left: 20px;">
-							<!-- <h4>Address</h4>
-								<ul>
-									<li>
-										<a
-											href="https://placement.iiita.ac.in/statistics.php"
-											>Asmita Headquarters, <br />
-											IIIT-Allahabad,Jhalwa,<br />Uttar
-											Pradesh-211015</a
-										>
-									</li>
-								</ul> -->
-							<img src="./assets/images/Logo.png" alt="Logo" class="footer-logo" width="50%" />
-							<img src="./assets/images/inter.png" alt="Logo" class="footer-logo" width="50%" />
-						</div>
-						<div class="footer-col" style="width: 20%;">
-							<h4>Phone Numbers</h4>
-							<ul>
-								<li>
-									<a href="">
-										Overall Coordinator:
-										<br />
-										+91 9423693939 - Nimish Rajurkar</a>
-								</li>
-								<li>
-									<a href="">Overall Coordinator:
-										<br />
-										+91 8102863704 - Harsh</a>
-								</li>
-							</ul>
-						</div>
-						<div class="footer-col" style="width: 20%;">
-							<h4>Email</h4>
-							<ul>
-								<a style="font-family: 'Roboto',sans-serif;
-								font-weight: 300;" href="mailto:asmita@iiita.ac.in">asmita@iiita.ac.in</a>
-							</ul>
-						</div>
-						<div class="footer-col" style="width: 20%;">
-							<h4>Follow us</h4>
-							<div class="social-links">
-								<a href="https://www.facebook.com/asmitaiiita" target="_blank"><i
-										class="fab fa-facebook-f"></i></a>
-								<!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-								<a href="https://www.instagram.com/asmita_iiita/" target="_blank"><i
-										class="fab fa-instagram"></i></a>
-								<!-- <a href=""><i class="fab fa-linkedin-in"></i></a> -->
-							</div>
-						</div>
-					</div>
-					<!-- </div> -->
-				</footer>
-			
-
 			<!-- div .benefits -->
-			<!-- <section class="benefits">
+			<section class="benefits">
 				<div class="content">
-					<h2 class="section-title">benef<span class="stroke">its</span>
+					<h2 class="section-title"><span class="stroke">Location</span>
 						<span class="section-title__square"></span>
 					</h2>
-
-					<ul class="benefits__list">
-						<li class="benefits__item">
-							<span class="benefits__num" data-speed="-200">/01</span>
-							<p class="benefits__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
-							</p>
-						</li>
-						<li class="benefits__item">
-							<span class="benefits__num" data-speed="-150">/02</span>
-							<p class="benefits__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
-							</p>
-						</li>
-						<li class="benefits__item">
-							<span class="benefits__num" data-speed="-150">/03</span>
-							<p class="benefits__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
-							</p>
-						</li>
-						<li class="benefits__item">
-							<span class="benefits__num" data-speed="-150">/04</span>
-							<p class="benefits__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
-							</p>
-						</li>
-						<li class="benefits__item">
-							<span class="benefits__num" data-speed="-110">/05</span>
-							<p class="benefits__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
-							</p>
-						</li>
-						<li class="benefits__item">
-							<span class="benefits__num" data-speed="-200">/06</span>
-							<p class="benefits__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
-							</p>
-						</li>
-					</ul>
+					<p class="about__p">The IIITA campus is located at Devghat Jhalwa (Peepalgaon Road), which is on the outskirts of Allahabad. It is 10 km from the town center and 7 km from the main railway station. The Allahabad ciy is well connected by air, rail and road to near by metros. Railway services to this city from all the mega cities of the coutry are excellent and quite confortable.	</p>
+					
+					
 				</div>
-			</section> -->
+			</section>
 
 			<!-- div .work -->
-			<!-- <section class="work">
-				<div class="content">
-					<h2 class="section-title">portfo<span class="stroke">lio</span>
-						<span class="section-title__square"></span>
-					</h2>
-				</div>
-
-				<div class="work__wrapp">
-					<div class="work__item" data-speed="-300">
-						<span class="work__item-num" data-speed="-1000">/001</span>
-						<div class="work__item-img">
-							<img src="img/3.jpg" alt="3">
-						</div>
-					</div>
-					<div class="work__item" data-speed="-600">
-						<span class="work__item-num" data-speed="-500">/002</span>
-						<div class="work__item-img">
-							<img src="img/4.jpg" alt="4">
-						</div>
-					</div>
-					<div class="work__item" data-speed="-700">
-						<span class="work__item-num" data-speed="-700">/003</span>
-						<div class="work__item-img">
-							<img src="img/5.jpg" alt="5">
-						</div>
-					</div>
-					<div class="work__item" data-speed="-400">
-						<span class="work__item-num" data-speed="-200">/004</span>
-						<div class="work__item-img">
-							<img src="img/6.jpg" alt="6">
-						</div>
-					</div>
-				</div>
-			</section> -->
+			
 
 			<!-- div .serv -->
-			<!-- <section class="serv">
-				<div class="content">
-					<h2 class="section-title">servic<span class="stroke">es</span>
-						<span class="section-title__square"></span>
-					</h2>
-
-					<div class="serv__list">
-						<div class="serv__item">
-							<span class="serv__item-arrow" data-speed="500">
-								<img src="img/arrow.svg" alt="">
-							</span>
-							<div class="serv__item-txt">
-								<span class="serv__item-text">/Graphic Design</span>
-							</div>
-						</div>
-						<div class="serv__item">
-							<span class="serv__item-arrow" data-speed="400">
-								<img src="img/arrow.svg" alt="">
-							</span>
-							<div class="serv__item-txt">
-								<span class="serv__item-text">/UX/UI Design</span>
-							</div>
-						</div>
-						<div class="serv__item">
-							<span class="serv__item-arrow" data-speed="800">
-								<img src="img/arrow.svg" alt="">
-							</span>
-							<div class="serv__item-txt">
-								<span class="serv__item-text">/Web Design</span>
-							</div>
-						</div>
-						<div class="serv__item">
-							<span class="serv__item-arrow" data-speed="600">
-								<img src="img/arrow.svg" alt="">
-							</span>
-							<div class="serv__item-txt">
-								<span class="serv__item-text">/Brend Design</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
+			
 		</main>
 
 		<!-- div .footer -->
-		<!-- <footer class="footer">
+		<footer class="footer">
 			<div class="footer__div">
 				<span data-speed="-300">a</span>
-				<span data-speed="100">p</span>
-				<span data-speed="300">p</span>
-				<span data-speed="-300">r</span>
-				<span data-speed="350">o</span>
-				<span data-speed="200">v</span>
-				<span data-speed="-310">e</span>
-				<span data-speed="200">c</span>
-				<span data-speed="-340">o</span>
-				<span data-speed="-100">d</span>
-				<span data-speed="300">e</span>
+				<span data-speed="100">s</span>
+				<span data-speed="300">m</span>
+				<span data-speed="-300">i</span>
+				<span data-speed="350">t</span>
+				<span data-speed="200">a</span>
+				<span data-speed="-310">2</span>
+				<span data-speed="200">0</span>
+				<span data-speed="-340">2</span>
+				<span data-speed="-100">4</span>
+				<span data-speed="300">.</span>
 			</div>
-		</footer> -->
+		</footer>
 	</div>
 	<!-- /div .wrapp END -->
 	<script src="js/splitting.min.js"></script>
@@ -388,6 +147,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
 	<script src="js/luxy.js"></script>
 	<script src="js/js.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 
 </html>
